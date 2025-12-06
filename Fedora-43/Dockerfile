@@ -10,7 +10,6 @@
 # and "test".
 # The images are intended to run on x86_64.
 
-
 # Build Image
 # This image is intended for jobs that compile the source code and as a general
 # purpose image. It contains the toolchains for all supported architectures, and

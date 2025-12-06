@@ -12,12 +12,12 @@ on:
   workflow_dispatch:
 
   push:
-    branches: [ '**' ]  # Match all branches
+    branches: [ main ]
     paths:
       - 'Fedora-41-AArch64/**'
 
   pull_request:
-    branches: [ '**' ]  # Match PRs targeting any branch
+    branches: [ main ]
     paths:
       - 'Fedora-41-AArch64/**'
 

@@ -32,6 +32,7 @@ RUN --mount=type=cache,target=/var/cache/libdnf5,sharing=locked \
         acpica-tools \
         dotnet-runtime-${DOTNET_VERSION} \
         clang \
+        compiler-rt \
         curl \
         gcc-c++ \
         gcc \
